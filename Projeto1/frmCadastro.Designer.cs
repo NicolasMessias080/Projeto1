@@ -92,6 +92,7 @@
             this.dgvCadastro.Name = "dgvCadastro";
             this.dgvCadastro.Size = new System.Drawing.Size(606, 150);
             this.dgvCadastro.TabIndex = 2;
+            this.dgvCadastro.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.dgvCadastro_MouseDoubleClick);
             // 
             // btnSalvar
             // 
@@ -102,6 +103,7 @@
             this.btnSalvar.TabIndex = 3;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // btnVoltar
             // 
